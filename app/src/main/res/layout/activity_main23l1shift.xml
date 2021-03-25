@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".Main23Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/blo"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="290dp"
+            android:text="Line 1"
+            android:textSize="25sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/textview_date2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="Date"
+            android:textColor="#0A0A0A"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/slider_heading"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-black"
+            android:text="  SHIFT HANDOVER REPORT"
+            android:textColor="#D32F2F"
+            android:textSize="27dp" />
+
+
+        <TextView
+            android:id="@+id/Slide_decs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="1.Production Plan Was It Completed?"
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+
+        <Button
+            android:id="@+id/bo33"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:text="What Happened?why?"></Button>
+
+        <TextView
+            android:id="@+id/Slide_decs21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Quality Deviations Encontered During Shift "
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+
+        <Button
+            android:id="@+id/boor533"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+
+            android:layout_marginTop="8dp"
+            android:text="What Happened?why?"></Button>
+
+        <TextView
+            android:id="@+id/Slide_decs7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="3.Accidents, Incidents or Safety Hazards"
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+
+        <Button
+            android:id="@+id/boo33"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+
+            android:layout_marginTop="8dp"
+            android:text="What Happened?why?"></Button>
+
+        <TextView
+            android:id="@+id/Slide_decs2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="4.Absenteeism / HouseKeeping"
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+
+        <Button
+            android:id="@+id/bo332"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:text="What Happened?why?"></Button>
+
+        <TextView
+            android:id="@+id/Slide_decs212"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.Stoppage Sheets Collected; M2 and 5 Whys Done And Captured  "
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+
+        <Button
+            android:id="@+id/boor5332"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+
+            android:layout_marginTop="8dp"
+            android:text="What Happened?why?"></Button>
+
+        <TextView
+            android:id="@+id/Slide_decs72"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="6.Actual Captured And Problems Logged"
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+
+        <Button
+            android:id="@+id/boo332"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+
+            android:layout_marginTop="8dp"
+            android:text="What Happened?why?"></Button>
+        <TextView
+            android:id="@+id/Slide_decs723"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="  Feedback Outstanding Work FromShift To Be Communicated For Completion"
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+
+        <Button
+            android:id="@+id/boo3323"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+
+            android:layout_marginTop="8dp"
+            android:text=" FEEDBACK:)"></Button>
+
+
+        <Button
+            android:id="@+id/bog0344332"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/colorPrimaryDark"
+
+            android:text="Check 4 Any Annoncement :)"
+            android:textColor="#FBF9FC"></Button>
+    </LinearLayout>
+
+</ScrollView>

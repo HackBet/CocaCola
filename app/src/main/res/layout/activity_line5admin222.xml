@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".line5admin222">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/blo"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="290dp"
+            android:text="Line 5"
+            android:textSize="25sp"
+            android:textStyle="bold"></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textview_date2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:text="Date"
+                android:textColor="#0A0A0A"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+            <Spinner
+                android:id="@+id/spiner101"
+                android:layout_width="96dp"
+                android:layout_height="match_parent"
+                android:entries="@array/Shift"></Spinner>
+
+            <Spinner
+                android:id="@+id/spiner404"
+                android:layout_width="113dp"
+                android:layout_height="match_parent"
+                android:entries="@array/AdminsL5"></Spinner>
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:layout_width="61dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imagebell"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_bell_noti"></androidx.appcompat.widget.AppCompatImageButton>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/slider_heading"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-black"
+            android:text=" CocaCola Admin Line 5:"
+            android:textColor="#D32F2F"
+            android:textSize="30dp" />
+
+
+        <TextView
+            android:id="@+id/Slide_decs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="1. Work Practices \n Comments: "
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/b133"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:hint="Comment / Resolution" />
+
+
+        <Button
+            android:id="@+id/bo33"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Add Comment"
+            ></Button>
+
+        <TextView
+            android:id="@+id/Slide_decs21"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="2. Action Gap List  "
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <Button
+            android:id="@+id/boor533"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="40dp"
+            android:text="Fill Table"></Button>
+
+        <TextView
+            android:id="@+id/Slide_decs7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="3.General \n Comments:"
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/b333"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:hint="Comment / Resolution" />
+
+        <Button
+            android:id="@+id/boo33"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Add Comment"></Button>
+
+        <Button
+            android:id="@+id/bog034433"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="done"
+            android:text="Done for today :)"
+            android:textColor="#FBF9FC"></Button>
+    </LinearLayout>
+
+</ScrollView>

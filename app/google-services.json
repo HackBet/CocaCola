@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "820327414602",
+    "firebase_url": "https://cocacola-d398b.firebaseio.com",
+    "project_id": "cocacola-d398b",
+    "storage_bucket": "cocacola-d398b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820327414602:android:b5e36334bfa92777e91fb3",
+        "android_client_info": {
+          "package_name": "com.example.cocacola"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820327414602-ae81q5khnmo1q1panaprtt30hga1odhv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cocacola",
+            "certificate_hash": "d326a87294b75d6b1c4cd6c3ee8b948086a2e282"
+          }
+        },
+        {
+          "client_id": "820327414602-n4i89jgs0acsivt1thurjg9oh2uhqn29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4vBYtAgzcLOpjF3DvKWpNW6LSQIpK_TA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820327414602-n4i89jgs0acsivt1thurjg9oh2uhqn29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

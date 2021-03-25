@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.cocacola">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/co"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".line6user333"></activity>
+        <activity android:name=".line5user333" />
+        <activity android:name=".line4user333" />
+        <activity android:name=".line3user333" />
+        <activity android:name=".line2user333" />
+        <activity android:name=".line1user333" />
+        <activity android:name=".line6admin333" />
+        <activity android:name=".line5admin333" />
+        <activity android:name=".line4admin333" />
+        <activity android:name=".line3admin333" />
+        <activity android:name=".line2admin333" />
+        <activity android:name=".line1admin333" />
+        <activity android:name=".line6usertable111" />
+        <activity android:name=".line5usertable111" />
+        <activity android:name=".line4usertable111" />
+        <activity android:name=".line3usertable111" />
+        <activity android:name=".line2usertable111" />
+        <activity android:name=".line6admintable111" />
+        <activity android:name=".line5admintable111" />
+        <activity android:name=".line4admintable111" />
+        <activity android:name=".line3admintable111" />
+        <activity android:name=".line2admintable111" />
+        <activity android:name=".line6admin222" />
+        <activity android:name=".line5admin222" />
+        <activity android:name=".line6user222" />
+        <activity android:name=".line5user222" />
+        <activity android:name=".line4admin222" />
+        <activity android:name=".line4user222" />
+        <activity android:name=".line3user222" />
+        <activity android:name=".line3admin222" />
+        <activity android:name=".line2user222" />
+        <activity android:name=".line2adminmin222" />
+        <activity android:name=".min2table6user" />
+        <activity android:name=".min2table5user" />
+        <activity android:name=".min2table4user" />
+        <activity android:name=".min2table3user" />
+        <activity android:name=".min2table2user" />
+        <activity android:name=".min2table6admin" />
+        <activity android:name=".min2table5admin" />
+        <activity android:name=".min2table4admin" />
+        <activity android:name=".min2table3admin" />
+        <activity android:name=".min2table2admin" />
+        <activity android:name=".line1adminmin222" />
+        <activity android:name=".line1userman222" />
+        <activity android:name=".line6user111" />
+        <activity android:name=".line6admin111" />
+        <activity android:name=".line5user111" />
+        <activity android:name=".line5admin111" />
+        <activity android:name=".line4user111" />
+        <activity android:name=".line4admin111" />
+        <activity android:name=".line3user111" />
+        <activity android:name=".line3admin111" />
+        <activity android:name=".line2usermin1" />
+        <activity android:name=".line2admin111" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".line1admin111" />
+        <activity android:name=".Main40Activity" />
+        <activity android:name=".Main39Activity" />
+        <activity android:name=".Main38Activity" />
+        <activity android:name=".Main37Activity" />
+        <activity android:name=".Main36Activity" />
+        <activity android:name=".passcode" />
+        <activity android:name=".Main34Activity" />
+        <activity android:name=".Main29Activity" />
+        <activity android:name=".Main28Activity" />
+        <activity android:name=".Main27Activity" />
+        <activity android:name=".Main26Activity" />
+        <activity android:name=".Main25Activity" />
+        <activity android:name=".Main10Activity" />
+        <activity android:name=".Announcement"
+            android:theme="@style/AppThemeDark" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main7Activity" />
+        <activity android:name=".Main6Activity" />
+        <activity android:name=".Main5Activity" />
+        <activity
+            android:name=".ADminsLogin"
+            android:theme="@style/AppThemeDark" />
+        <activity android:name=".Main3Activity"
+            android:theme="@style/AppThemeDark"/>
+        <activity
+            android:name=".Main2Activity"
+            android:theme="@style/AppThemeDark" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SliderAdapter" />
+    </application>
+
+</manifest>

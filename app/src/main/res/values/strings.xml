@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">CocaCola</string>
+    <array name="Shift">
+        <item>Day</item>
+        <item>Night</item>
+        <item>Evening</item>
+
+
+    </array>
+    <array name="AdminsL1">
+        <item>Abebe T.</item>
+        <item>Kebede Q.</item>
+        <item>Girma W.</item>
+        <item>Hagose R.</item>
+        <item>Hacalu P.</item>
+        <item>L1 Leader</item>
+    </array>
+    <array name="AdminsL2">
+        <item>Abebe T.</item>
+        <item>Kebede Q.</item>
+        <item>Girma W.</item>
+        <item>Hagose R.</item>
+        <item>Hacalu P.</item>
+        <item>L2 Leader</item>
+
+    </array>
+    <array name="AdminsL3">
+        <item>Abebe T.</item>
+        <item>Kebede Q.</item>
+        <item>Girma W.</item>
+        <item>Hagose R.</item>
+        <item>Hacalu P.</item>
+        <item>L3 Leader</item>
+    </array>
+    <array name="AdminsL4">
+        <item>Abebe T.</item>
+        <item>Kebede Q.</item>
+        <item>Girma W.</item>
+        <item>Hagose R.</item>
+        <item>Hacalu P.</item>
+        <item>L4 Leader</item>
+    </array>
+    <array name="AdminsL5">
+        <item>Abebe T.</item>
+        <item>Kebede Q.</item>
+        <item>Girma W.</item>
+        <item>Hagose R.</item>
+        <item>Hacalu P.</item>
+        <item>L5 Leader</item>
+    </array>
+    <array name="AdminsL6">
+        <item>Abebe T.</item>
+        <item>Kebede Q.</item>
+        <item>Girma W.</item>
+        <item>Hagose R.</item>
+        <item>Hacalu P.</item>
+        <item>L6 Leader</item>
+    </array>
+</resources>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".Main4Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/blo"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="290dp"
+            android:text="Line 6"
+            android:textSize="25sp"
+            android:textStyle="bold"></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textview_date2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:text="Date"
+                android:textColor="#0A0A0A"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+            <Spinner
+                android:id="@+id/spiner101"
+                android:layout_width="96dp"
+                android:layout_height="match_parent"
+                android:entries="@array/Shift"></Spinner>
+
+            <Spinner
+                android:id="@+id/spiner404"
+                android:layout_width="113dp"
+                android:layout_height="match_parent"
+                android:entries="@array/AdminsL6"></Spinner>
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:layout_width="61dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imagebell"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_bell_noti"></androidx.appcompat.widget.AppCompatImageButton>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/slider_heading"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-black"
+            android:text="     CocaCola Admin Line 6"
+            android:textColor="#D32F2F"
+            android:textSize="30dp" />
+
+
+
+        <TextView
+            android:id="@+id/Slide_decs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="1. Attendance/ Absence [Check for resourse need for the day all are on ]   "
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/b133"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:hint="Comment / Resolution" />
+
+
+        <Button
+            android:id="@+id/bo33"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Add Comment"
+            ></Button>
+
+        <TextView
+            android:id="@+id/Slide_decs21"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="2. Safety[ Discuss incident / Near miss / ToolBox Talk And Concern  ]   "
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/b233"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:hint="Add Comment" />
+
+        <Button
+            android:id="@+id/boor533"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Add Comment"></Button>
+        <TextView
+            android:id="@+id/Slide_decs7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="3. Previous Day's Action [ \n1.Ensure Action Clouser \n2.Pick Up Additional Issue as a result of work done ]         "
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/b333"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:hint="Comment / Resolution" />
+
+        <Button
+            android:id="@+id/boo33"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Add Comment"></Button>
+        <TextView
+            android:id="@+id/Slide_decs20"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="4. Review Of Past Performance (Actual vs Target) include other KPI as required [\n1.Ensure action in place to address issues  \n2.See if triggers prompting a corrective action \n 3.To see if
+ if problem solving is leading to root cause elimination] "
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <Button
+            android:id="@+id/booo"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="40dp"
+            android:text="Fill Table"></Button>
+        <TextView
+            android:id="@+id/Slide_decs2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="5. Today Production plan [Highlight the target for the day / changeovers and flavours]  "
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/b50"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:hint="Comment / Resolution" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Add Comment"></Button>
+        <TextView
+            android:id="@+id/Slide_decs672"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="6. Today's Action Plan [Review and clarify agreed for the day ]    "
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/bo0"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:hint="Comment / Resolution" />
+
+        <Button
+            android:id="@+id/boo0"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Add Comment"></Button>
+        <TextView
+            android:id="@+id/Slide_decs23"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="7. General Communication [items of general interest and company news]     "
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/bop0"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:hint="Comment / Resolution" />
+
+        <Button
+            android:id="@+id/bopp0"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Add Comment"></Button>
+        <TextView
+            android:id="@+id/Slide_decs24"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="8. Issues for escalation [Disscus issues that not abel to be resolved at L1 to L2 meeting]   "
+            android:textColor="#111010"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/bopp"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:hint="Comment / Resolution" />
+
+        <Button
+            android:id="@+id/bog0"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Add Comment"></Button>
+
+        <Button
+            android:id="@+id/bog0344"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="done"
+            android:text="Done for today :)"
+            android:textColor="#FBF9FC"></Button>
+
+
+    </LinearLayout>
+
+</ScrollView>

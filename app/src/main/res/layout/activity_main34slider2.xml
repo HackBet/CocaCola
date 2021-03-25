@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".Main5Activity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpage"
+        android:layout_width="378dp"
+        android:layout_height="635dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="14dp">
+
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/dotlayout"
+        android:layout_width="84dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="13dp"
+        android:orientation="horizontal"
+        android:visibility="visible"></LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:tint="@color/colorPrimaryDark"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_android_black_24dp" />
+
+    <Button
+        android:id="@+id/Slide1"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Slide3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="13dp"
+        android:text="FILL SBT MEETING MINUTES ||"
+        android:textColor="#111010"
+        android:textSize="17sp"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/Slide2"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Slide1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="15dp"
+        android:text="FILL SBT MEETING MINUTES |"
+        android:textColor="#111010"
+        android:textSize="17sp"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/Slide3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="218dp"
+        android:text="FILL HANDOVER REPORT"
+        android:textColor="#111010"
+        android:textSize="17sp"
+        android:textStyle="bold"></Button>
+
+
+</RelativeLayout>
